@@ -1,0 +1,9 @@
+# Standalone scientific workbench; legacy Docker services are not required.
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+httpx>=0.27,<1
+python-multipart>=0.0.18,<1
+pydantic>=2.7,<3
+langgraph>=1,<2
+openai>=1.50,<3
+pypdf>=5,<7

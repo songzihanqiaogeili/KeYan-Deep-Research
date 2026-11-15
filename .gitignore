@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.scientific
+backend/data/scientific/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Build outputs
+frontend/dist/
+
+# Langfuse (third-party)
+langfuse/
+
+# Cache
+.cache/
+*.cache
+USER_ACTION.md
+
+# Scientific evaluation artifacts (keep cases, corpus, and instructions in source).
+backend/eval/scientific/runs/
+backend/eval/scientific/work/
+backend/eval/scientific/baselines/
